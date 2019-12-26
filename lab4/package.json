@@ -1,0 +1,19 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "kafkajs": "^1.11.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "zookeeper:start": "cd E:\\lab4/kafka1/bin/windows && zookeeper-server-start.bat ../../config/zookeeper.properties",
+    "kafka:start": "cd E:\\lab4/kafka1/bin/windows && kafka-server-start.bat ../../config/server.properties"
+  },
+  "author": "",
+  "license": "ISC"
+}
